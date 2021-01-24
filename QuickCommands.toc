@@ -1,0 +1,7 @@
+## Interface: 90002
+## Version: 1.1.0
+## Title: QuickCommands
+## Author: Xorag
+## Notes: /ar to restart audio, /gv to show great vault
+
+QuickCommands.lua
