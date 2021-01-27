@@ -17,7 +17,11 @@ function Mount() --Handy mount function for the maw and a favorite everywhere el
 	elseif IsFlyableArea() and not in_instance then
 		C_MountJournal.SummonByID(0) --Random Favorite
 	else
-		C_MountJournal.SummonByID(111) --Summon Zulian Tiger
+		if math.random(1,100) <= 50 then
+			C_MountJournal.SummonByID(111) --Summon Zulian Tiger
+		else
+			C_MountJournal.SummonByID(1419) --Sintouched Deathwalker
+		end
 	end
 end
 
