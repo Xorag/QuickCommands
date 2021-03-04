@@ -1,4 +1,4 @@
-function AudioRestart() --Restart the audio process if you've change your audio device in Windows
+function AudioRestart() --Restart the audio process if you've changed your audio device in Windows
 	AudioOptionsFrame_AudioRestart()
 end
 
