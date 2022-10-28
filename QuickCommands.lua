@@ -1,5 +1,5 @@
 function AudioRestart() --Restart the audio process if you've changed your audio device in Windows
-	AudioOptionsFrame_AudioRestart()
+	Sound_GameSystem_RestartSoundSystem()
 end
 
 function GreatVault() --Show the great vault UI anywhere
