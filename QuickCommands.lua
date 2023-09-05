@@ -7,7 +7,13 @@ function GreatVault() --Show the great vault UI anywhere
 	WeeklyRewardsFrame:Show()
 end
 
+function Reload() --Reload the UI
+	ReloadUI()
+end
+
 SLASH_AR1 = '/ar'
 SLASH_GV1 = '/gv'
+SLASH_RL1 = '/rl'
+SlashCmdList["RL"] = Reload
 SlashCmdList["AR"] = AudioRestart
 SlashCmdList["GV"] = GreatVault
