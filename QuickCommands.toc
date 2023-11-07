@@ -1,5 +1,5 @@
-## Interface: 100107
-## Version: 10.1.7.1
+## Interface: 100200
+## Version: 10.2.0.1
 ## Title: QuickCommands
 ## Author: Xorag
 ## Notes: /ar to restart audio, /gv to show great vault, /rl to reload ui
